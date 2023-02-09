@@ -1,0 +1,21 @@
+main{ 
+    padding:0;margin:0;border:0; 
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;    
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+article{
+    text-align: justify;
+    color: beige;
+    margin: 5px;
+    background: #9c9c9c;
+    flex: 1 1 200px;
+}
+article:nth-of-type(4)  {
+    flex-grow: 10; 
+  }
